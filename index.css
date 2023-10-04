@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.basliq{
+    background-color: black;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+
+}
+.basliq ul{
+    display: flex;
+    color: white;
+    gap: 22px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.basliq a{
+    color: white;
+    text-decoration:none ;
+    font-size: 16px;
+}
+#chicago{
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    padding-bottom: 50px;}
+#chicago h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.the_band h1,p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+.image p{
+    margin-bottom: 20px;
+}
+.Name{
+    margin-top: 100px ;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.main{
+    width:100% ;
+    height: 800px;  
+}
+.container{
+    width:100%;
+    height:800px ;
+    background-color: black;
+    background-size:cover ;
+    margin-top: 200px;
+}
+.tour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.buttom{
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex
+}
